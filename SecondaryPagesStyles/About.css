@@ -1,0 +1,10 @@
+.AboutPage{
+    margin: 0;
+    background-color: blue;
+    width: 90vw;
+    height: 80vh;
+    padding: 50px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}

@@ -1,0 +1,121 @@
+/* full page */
+.portfolioPage{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url(images/wp7453607.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* navBar Section*/
+.navBar{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.navImage{
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px black;
+}
+.navList{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.navList li{
+    width:80px;
+    margin: 10px;
+}
+.navListItems a{
+     color: black;
+     text-decoration: none;
+}
+.navListItems:hover{
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+}
+/* Main Section */
+.main{
+    padding: 10px 30px;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+.mainLeft{
+    width: 60vw;
+}
+.mainLeft h1{
+    font-size: 40px;
+}
+.mainRight{
+    width: 40vw;
+}
+.description{
+    height: 120px;
+    padding: 30px 0px;
+    font-size: 25px;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+.cv{
+    width:220px;
+    padding: 20px 45px;
+    margin:15px 10px 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white !important;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cvA{
+     color: white !important;
+     text-decoration: none;
+}
+.cv:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 6px 2px rgb(165, 152, 152);
+}
+.mainRight img{
+    border-radius: 150px;
+}
+
+/* animation */
+@keyframes rotateText {
+  0%   { transform: rotate(45deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animated-rotate {
+  display: inline-block;
+  animation: rotateText 3s linear infinite;
+}
+
+/*  */
+.connections{
+    display: flex;
+    padding: 0 40px;
+}
+.connections a{
+    padding: 10px;
+    font-size: 50px;
+}
+.github{
+     color: gray;
+}
+.github:hover{
+   cursor: pointer;
+   color: black;
+}
+.linkedin:hover{
+    color: blue;
+    cursor: pointer;
+}
+.mail:hover,.tel:hover{
+    color:blue;
+    cursor: pointer;
+}
+/* ..............................ANIMATION......................... */
+

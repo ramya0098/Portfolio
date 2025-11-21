@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <!-- This link is for adding browserIcon(Letter-R) -->
+    <link rel="icon" type="image/x-icon" href="/images/Letter-R.jpeg" />
+    <!-- This link is for adding font-awsome-icons into our page -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <!-- And this link is normal css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="portfolioPage">
+    <!-- navBar -->
+    <nav class="navBar">
+      <div style="display: flex; align-items: center">
+        <img
+          class="navImage"
+          src="images/Letter-R.jpeg"
+          alt="Letter-R"
+          width="100px"
+          height="100px"
+          style="color: red"
+        />
+        <h1>RAMYA MUTYAM</h1>
+      </div>
+      <div>
+        <ul class="navList" style="display: flex; list-style-type: none">
+          <li class="navListItems">
+            <a href="#portfolioPage" target="self">Home</a>
+          </li>
+          <li class="navListItems">
+            <a href="SecondaryPages/About.html" target="self">About</a>
+          </li>
+          <li class="navListItems">
+            <a href="SecondaryPages/Skills.html" target="self">Skills</a>
+          </li>
+          <li class="navListItems">
+            <a href="SecondaryPages/Works.html" target="self">Works</a>
+          </li>
+          <li class="navListItems">
+            <a href="SecondaryPages/Contact.html" target="self">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main class="main">
+      <div class="mainLeft">
+        <h1>Hi, I'm RAMYA MUTYAM!</h1>
+        <h1>
+          FRONTEND
+          <span class="animated-rotate" style="color: blue">DEVELOPER</span>
+        </h1>
+        <div class="description">
+          I'm a passionate UI/UX designer with a mission to create delightful
+          and intutive digital experiences. With a strong foundation in design
+          principles and a keen eye for detail, I specialize in translating
+          complex ideas into user-friendly interfaces that captivate and engage.
+        </div>
+        <button class="cv">
+          <a class="cvA" href="RAMYA_Resume.pdf" download
+            >Download CV<i class="fa-solid fa-download"></i
+          ></a>
+        </button>
+      </div>
+      <div class="mainRight">
+        <img src="/images/GirlImage.jpeg" alt="my_Image" />
+      </div>
+    </main>
+    <div class="connections">
+        <a target="_blank" class="github" href="https://github.com/ramya0098"
+          ><i class="fa-brands fa-github"></i></a>
+        <a target="_blank" class="linkedin" href="https://www.linkedin.com/in/ramya-ramya-a3058b392/"
+          ><i class="fa-brands fa-linkedin"></i></a>
+        <a target="_blank" class="mail" href="mailto:ramyamutyam0098@gmail.com"
+          ><i class="fa-regular fa-envelope"></i></a>
+        <a target="_blank" class="tel" href="tel:+919876543210"><i class="fa-solid fa-phone"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
