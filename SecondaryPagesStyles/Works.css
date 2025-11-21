@@ -1,6 +1,6 @@
 .workspage{
     margin: 0;
-    background-color: blue;
+    background-color: black;
 }
 .works-section {
   padding: 60px 30px;
@@ -13,8 +13,27 @@
 }
 
 .works-intro {
-  color: #555;
+  color:white;
+  font-size: 20px;
   margin-bottom: 30px;
+}
+.backContainer{
+   display: flex;
+   margin: 30px;
+   flex-direction: row-reverse; 
+    width: 90vw;
+}
+.back{
+    padding:15px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+.back:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+
 }
 
 .projects-grid {

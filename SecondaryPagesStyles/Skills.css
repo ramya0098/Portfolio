@@ -1,13 +1,15 @@
 
 *{
 background-color:rgb(110, 110, 228);
-background-color: blue;
+background-color: black;
 margin: 0;
 }
 .skill-intro{
+  font-size: 20px;
     font-weight: bold;
-    padding :20px
-    /* color: aqua; */
+    padding :20px;
+    color: white;
+    background-color: black;
 }
 .skills-section {
   padding: 60px 30px;
@@ -34,6 +36,24 @@ margin: 0;
   border-radius: 14px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   transition: transform 0.3s, box-shadow 0.3s;
+}
+.backContainer{
+  margin: 30px;
+   display: flex;
+   flex-direction: row-reverse; 
+    width: 90vw;
+}
+.back{
+    padding:15px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: red;
+}
+.back:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px black;
+
 }
 
 .skill-card:hover {
